@@ -12,3 +12,7 @@ This ships with solana cli and can be started with
 ```bash
 solana-test-validator
 ```
+
+## Lamports
+
+1 lamport = 10^-9 Sol. Smallest Unit in Solana
