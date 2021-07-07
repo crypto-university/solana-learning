@@ -6,7 +6,7 @@ We can store a string in an associated account,
 
 Please note below that DataAccount is an associated account and in order to put an associated account, we need `system_program`
 
-```
+```rs
 use anchor_lang::prelude::*;
 
 #[program]
