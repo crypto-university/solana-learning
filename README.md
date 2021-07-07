@@ -19,8 +19,29 @@ solana-test-validator
 solana config get
 ```
 
+## RPC
+
+LocalNet
+
+```
+$ solana config set --url http://127.0.0.1:8899
+```
+
+Devnet url 
+```
+$ solana config set --url https://api.devnet.solana.com
+```
+
+Mainnet URL 
+```
+$ solana config set --url https://api.mainnet-beta.solana.com
+```
+
+
+
 ## Terminology
 
 ### Lamports
 
 1 lamport = 10^-9 Sol. Smallest Unit in Solana
+
